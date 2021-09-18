@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol</title>
+    <!-- bootsrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css join -->
+    <link rel="stylesheet" href="../css/stylesub.css">
+    <!-- typing links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <style>
+        h3 {
+            font-weight: 600;
+        }
+        
+        h5 {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- header section -->
+    <header>
+        <!-- navbar -------->
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-light  fixed-top ">
+
+            </style>
+            <a class="navbar-brand logo" href="../index.html"><img src="../images/logo.jpg" id="logo"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto align-items-center">
+
+                    <li class="nav-item active">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="../index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                        <script>
+                        </script>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Network Types
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown" style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;">
+                            <a class="dropdown-item" href="topology.html">Topology</a>
+                            <a class="dropdown-item" href="protocol.html">Protocol</a>
+                            <a class="dropdown-item" href="devices.html">Devices</a>
+                            <a class="dropdown-item" href="attacks.html">Attack</a>
+                            <a class="dropdown-item" href="commands.html">Commands</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link " href="#our-service" style="color: rgb(4, 4, 59);">Our Services</a>
+                    </li> -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="contact">
+                    <li>
+                        <div class="search">
+                            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                            <button type="submit" class="searchButton">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- navbar -------->
+        <!-- image  carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active ">
+                    <img class="d-block w-100 caroimg" src="../images/protocol.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <script>
+            $(function() {
+                $(document).scroll(function() {
+                    var $nav = $(".navbar");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+
+    </header>
+    <!-- -----------------------------all body contents under here--------------------------------------------------- -->
+    <div class="container mt-4">
+        <h4>Protocols</h4>
+    </div>
+
+    <div class="container mt-4">
+
+        <div>
+            <h3>what is protocol?</h3>
+            <p>A protocol is a standard set of rules that allow electronic devices to communicate with each other. These rules include what type of data may be transmitted, what commands are used to send and receive data, and how data transfers are confirmed.</p>
+        </div>
+        <div>
+            <h3>Network protocol Types</h3>
+            <ul>
+                <li>Transmission Control Protocol (TCP)</li>
+                <li>Internet Protocol (IP)</li>
+                <li>User Datagram Protocol (UDP)</li>
+                <li>Post office Protocol (POP)</li>
+                <li>Simple mail transport Protocol (SMTP)</li>
+            </ul>
+            <ul>
+                <li>File Transfer Protocol (FTP)</li>
+                <li>Hyper Text Transfer Protocol (HTTP)</li>
+                <li>Hyper Text Transfer Protocol Secure (HTTPS)</li>
+                <li>Telnet</li>
+                <li>Gopher</li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <h5>01. Transmission Control Protocol (TCP)</h5>
+                <p>TCP is a popular communication protocol which is used for communicating over a network. It divides any message into series of packets that are sent from source to destination and there it gets reassembled at the destination.</p>
+                <h5>02. Internet Protocol (IP)</h5>
+                <p>IP is designed explicitly as addressing protocol. It is mostly used with TCP. The IP addresses in packets help in routing them through different nodes in a network until it reaches the destination system. TCP/IP is the most popular protocol
+                    connecting the networks.</p>
+                <h5>03. User Datagram Protocol (UDP)</h5>
+                <p>UDP is a substitute communication protocol to Transmission Control Protocol implemented primarily for creating loss tolerating and low latency linking between different applications.</p>
+                <h5>04. Post office Protocol (POP)</h5>
+                <p>POP3 is designed for receiving incoming E-mails.</p>
+                <h5>05. Simple mail transport Protocol (SMTP)</h5>
+                <p>SMTP is designed to send and distribute outgoing E-Mail.</p>
+                <h5>06. File Transfer Protocol (FTP)</h5>
+                <p>FTP allows users to transfer files from one machine to another. Types of files may include program files, multimedia files, text files, and documents, etc.</p>
+                <h5>07. Hyper Text Transfer Protocol (HTTP)</h5>
+                <p>HTTP is designed for transferring a hypertext among two or more systems. HTML tags are used for creating links. These links may be in any form like text or images. HTTP is designed on Client-server principles which allow a client system
+                    for establishing a connection with the server machine for making a request. The server acknowledges the request initiated by the client and responds accordingly.</p>
+                <h5>08. Hyper Text Transfer Protocol Secure (HTTPS)</h5>
+                <p>HTTPS is abbreviated as Hyper Text Transfer Protocol Secure is a standard protocol to secure the communication among two computers one using the browser and other fetching data from web server. HTTP is used for transferring data between
+                    the client browser (request) and the web server (response) in the hypertext format, same in case of HTTPS except that the transferring of data is done in an encrypted format. So it can be said that https thwart hackers from interpretation
+                    or modification of data throughout the transfer of packets.</p>
+                <h5>09. Telnet</h5>
+                <p>Telnet is a set of rules designed for connecting one system with another. The connecting process here is termed as remote login. The system which requests for connection is the local computer, and the system which accepts the connection
+                    is the remote computer.</p>
+                <h5>10. Gopher</h5>
+                <p>Gopher is a collection of rules implemented for searching, retrieving as well as displaying documents from isolated sites. Gopher also works on the client/server principle.</p>
+            </div>
+            <div>
+                <h3>Some Other Network protocol Types</h3>
+                <ul>
+                    <li>ARP (Address Resolution Protocol)</li>
+                    <li>DHCP (Dynamic Host Configuration Protocol)</li>
+                    <li>IMAP4 (Internet Message Access Protocol)</li>
+                    <li>SIP (Session Initiation Protocol)</li>
+                    <li>RTP (Real-Time Transport Protocol)</li>
+                    <li>RLP (Resource Location Protocol)</li>
+                </ul>
+                <ul>
+                    <li>RAP (Route Access Protocol)</li>
+                    <li>L2TP (Layer Two Tunnelling Protocol)</li>
+                    <li>PPTP (Point To Point Tunnelling Protocol)</li>
+                    <li>SNMP (Simple Network Management Protocol)</li>
+                    <li>TFTP (Trivial File Transfer Protocol)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------all body contents ends here---------------------------------------------------- -->
+    <footer class="page-footer mt-3">
+
+        <!-- Footer Links -->
+        <div class="container footer text-center text-md-left ">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Network Detailer</h5>
+                    <p><i>"Network is the best"</i></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente animi minus earum natus porro!</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+                    <ul class="list-unstyled" style="color: rgb(216, 203, 17);">
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Home</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">About Us</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Network Types</a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Contact Us</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fa fa-home mr-3"></i> No. 114 2/1,Padiliyathuduwa Road, Beliatta, tangalle, Sri Lanka
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-envelope mr-3"></i>abcnetworka@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-phone mr-3"></i> + 94 76 8 841 586
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-whatsapp mr-3"></i> + 94 76 5 341 586
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                    <!-- Facebook -->
+                    <a type="button" class="btn-floating btn-fb" href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x mr-3"></i>
+                    </a>
+                    <!-- Insta -->
+                    <a type="button" class="btn-floating btn-tw" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa fa-instagram fa-2x mr-3"></i>
+                    </a>
+                    <!-- Gmail -->
+                    <a type="button" class="btn-floating btn-dribbble" href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x"></i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3  " style="background-color: rgb(31, 30, 30); color: white;">© 2021 Copyright: Developed by
+            <a style="color: crimson;" href="#"> Shashini Udeesha</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

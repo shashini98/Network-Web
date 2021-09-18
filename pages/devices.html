@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices</title>
+    <!-- bootsrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css join -->
+    <link rel="stylesheet" href="../css/stylesub.css">
+    <!-- typing links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style>
+        h5 {
+            color: crimson;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <!-- header section -->
+    <header>
+        <!-- navbar -------->
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-light  fixed-top ">
+
+            </style>
+            <a class="navbar-brand logo" href="../index.html"><img src="../images/logo.jpg" id="logo"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto align-items-center">
+
+                    <li class="nav-item active">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="../index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                        <script>
+                        </script>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Network Types
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown" style="background:transparent; width: 20%;" style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;">
+                            <a class="dropdown-item" href="topology.html">Topology</a>
+                            <a class="dropdown-item" href="protocol.html">Protocol</a>
+                            <a class="dropdown-item" href="devices.html">Devices</a>
+                            <a class="dropdown-item" href="attacks.html">Attack</a>
+                            <a class="dropdown-item" href="commands.html">Commands</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link " href="#our-service" style="color: rgb(4, 4, 59);">Our Services</a>
+                    </li> -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="contact">
+                    <li>
+                        <div class="search">
+                            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                            <button type="submit" class="searchButton">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- navbar -------->
+        <!-- image  carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active ">
+                    <img class="d-block w-100 caroimg" src="../images/devices.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            $(function() {
+                $(document).scroll(function() {
+                    var $nav = $(".navbar");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+
+
+    </header>
+    <!-- -----------------------------all body contents under here--------------------------------------------------- -->
+    <div class="container mt-4">
+        <h4>Devices</h4>
+    </div>
+    <div class="container mt-4">
+
+        <div>
+            <h2>Network Devices</h2>
+            <p>Hardware devices that are used to connect computers, printers, fax machines and other electronic devices to a network are called network devices. These devices transfer data in a fast, secure and correct way over same or different networks.
+                Network devices may be inter network or intra network. Some devices are installed on the device, like NIC card or RJ45 connector, whereas some are part of the network, like router, switch, etc. Let us explore some of these devices in greater
+                detail.
+            </p>
+        </div>
+
+        <div>
+            <div>
+                <h5>Modem</h5>
+                <p>Modem is a device that enables a computer to send or receive data over telephone or cable lines. The data stored on the computer is digital whereas a telephone line or cable wire can transmit only analog data.</p>
+                <img src="../images/analog_digital_waveforms.jpg" alt="" />
+                <p>The main function of the modem is to convert digital signal into analog and vice versa. Modem is a combination of two devices - modulator and demodulator. The modulator converts digital data into analog data when the data is being sent
+                    by the computer. The demodulator converts analog data signals into digital data when it is being received by the computer.</p>
+            </div>
+            <div>
+                <h5>RJ45 Connector</h5>
+                <p>RJ45 is the acronym for Registered Jack 45. RJ45 connector is an 8-pin jack used by devices to physically connect to Ethernet based local area networks (LANs). Ethernet is a technology that defines protocols for establishing a LAN. The
+                    cable used for Ethernet LANs are twisted pair ones and have RJ45 connector pins at both ends. These pins go into the corresponding socket on devices and connect the device to the network.</p>
+                <img src="../images/rj45_connector.jpg" alt="" />
+            </div>
+            <div>
+                <h5>Ethernet Card</h5>
+                <p>Ethernet card, also known as network interface card (NIC), is a hardware component used by computers to connect to Ethernet LAN and communicate with other devices on the LAN. The earliest Ethernet cards were external to the system and
+                    needed to be installed manually. In modern computer systems, it is an internal hardware component. The NIC has RJ45 socket where network cable is physically plugged in.</p>
+                <img src="../images/ethernet_card.jpg" alt="" />
+                <p>Ethernet card speeds may vary depending upon the protocols it supports. Old Ethernet cards had maximum speed of 10 Mbps. However, modern cards support fast Ethernets up to a speed of 100 Mbps. Some cards even have capacity of 1 Gbps.</p>
+            </div>
+            <div>
+                <h5>Router</h5>
+                <p>A router is a network layer hardware device that transmits data from one LAN to another if both networks support the same set of protocols. So a router is typically connected to at least two LANs and the internet service provider (ISP).
+                    It receives its data in the form of packets, which are data frames with their destination address added. Router also strengthens the signals before transmitting them. That is why it is also called repeater.</p>
+                <img src="../images/router.jpg" alt="" />
+            </div>
+            <div>
+                <h5>Switch</h5>
+                <p>Switch is a network device that connects other devices to Ethernet networks through twisted pair cables. It uses packet switching technique to receive, store and forward data packets on the network. The switch maintains a list of network
+                    addresses of all the devices connected to it.<br> On receiving a packet, it checks the destination address and transmits the packet to the correct port. Before forwarding, the packets are checked for collision and other network errors.
+                    The data is transmitted in full duplex mode</p>
+                <img src="../images/switches.jpg" alt="" />
+                <p>Data transmission speed in switches can be double that of other network devices like hubs used for networking. This is because switch shares its maximum speed with all the devices connected to it. This helps in maintaining network speed
+                    even during high traffic. In fact, higher data speeds are achieved on networks through use of multiple switches.</p>
+            </div>
+            <div>
+                <h5>Gateway</h5>
+                <p>Gateway is a network device used to connect two or more dissimilar networks. In networking parlance, networks that use different protocols are dissimilar networks. A gateway usually is a computer with multiple NICs connected to different
+                    networks. A gateway can also be configured completely using software. As networks connect to a different network through gateways, these gateways are usually hosts or end points of the network.</p>
+                <img src="../images/gateway.jpg" alt="" />
+                <p>Gateway uses packet switching technique to transmit data from one network to another. In this way it is similar to a router, the only difference being router can transmit data only over networks that use same protocols.</p>
+            </div>
+            <div>
+                <h5>Wi-Fi Card</h5>
+                <p>Wi-Fi is the acronym for wireless fidelity. Wi-Fi technology is used to achieve wireless connection to any network. Wi-Fi card is a card used to connect any device to the local network wirelessly. The physical area of the network which
+                    provides internet access through Wi-Fi is called Wi-Fi hotspot. Hotspots can be set up at home, office or any public space. Hotspots themselves are connected to the network through wires.</p>
+                <img src="../images/wifi_card.jpg" alt="" />
+                <p>A Wi-Fi card is used to add capabilities like teleconferencing, downloading digital camera images, video chat, etc. to old devices. Modern devices come with their in-built wireless network adapter.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------all body contents ends here---------------------------------------------------- -->
+    <footer class="page-footer mt-3">
+
+        <!-- Footer Links -->
+        <div class="container footer text-center text-md-left ">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Network Detailer</h5>
+                    <p><i>"Network is the best"</i></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente animi minus earum natus porro!</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+                    <ul class="list-unstyled" style="color: rgb(216, 203, 17);">
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Home</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">About Us</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Network Types</a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Contact Us</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fa fa-home mr-3"></i> No. 114 2/1,Padiliyathuduwa Road, Beliatta, tangalle, Sri Lanka
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-envelope mr-3"></i>abcnetworka@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-phone mr-3"></i> + 94 76 8 841 586
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-whatsapp mr-3"></i> + 94 76 5 341 586
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                    <!-- Facebook -->
+                    <a type="button" class="btn-floating btn-fb" href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x mr-3"></i>
+                    </a>
+                    <!-- Insta -->
+                    <a type="button" class="btn-floating btn-tw" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa fa-instagram fa-2x mr-3"></i>
+                    </a>
+                    <!-- Gmail -->
+                    <a type="button" class="btn-floating btn-dribbble" href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x"></i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3  " style="background-color: rgb(31, 30, 30); color: white;">© 2021 Copyright: Developed by
+            <a style="color: crimson;" href="#"> Shashini Udeesha</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

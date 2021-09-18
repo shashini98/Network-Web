@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attacks</title>
+    <!-- bootsrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css join -->
+    <link rel="stylesheet" href="../css/stylesub.css">
+    <!-- typing links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <style>
+        h5 {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- header section -->
+    <header>
+        <!-- navbar -------->
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-light  fixed-top ">
+
+            </style>
+            <a class="navbar-brand logo" href="../index.html"><img src="../images/logo.jpg" id="logo"></a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto align-items-center">
+
+                    <li class="nav-item active">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="../index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                        <script>
+                        </script>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Network Types
+                        </a>
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdown" style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;">
+                            <a class="dropdown-item" href="topology.html">Topology</a>
+                            <a class="dropdown-item" href="protocol.html">Protocol</a>
+                            <a class="dropdown-item" href="devices.html">Devices</a>
+                            <a class="dropdown-item" href="attacks.html">Attack</a>
+                            <a class="dropdown-item" href="commands.html">Commands</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: rgb(4, 4, 59);font-weight:600;font-size:15px;padding-left:1.5rem;" class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link " href="#our-service" style="color: rgb(4, 4, 59);">Our Services</a>
+                    </li> -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right" id="contact">
+                    <li>
+                        <div class="search">
+                            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                            <button type="submit" class="searchButton">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- navbar -------->
+        <!-- image  carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active ">
+                    <img class="d-block w-100 caroimg" src="../images/attacks.jpeg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <script>
+            $(function() {
+                $(document).scroll(function() {
+                    var $nav = $(".navbar");
+                    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+
+
+    </header>
+    <!-- -----------------------------all body contents under here--------------------------------------------------- -->
+    <div class="container mt-4">
+        <h4>Network Security Attacks</h4>
+    </div>
+    <div class="container mt-4">
+        <div>
+            <h3>10 Types of Network Security Attacks</h3>
+            <p>Due to increased public awareness about the importance of keeping online transactions and documents secure, cybercriminals have modified their network attack strategies. Technological advances over the past several years have enabled these
+                cybercriminals to develop more innovative, as well as stealthy, ways to attack computer networks.<br> As a business owner, it is important that you are familiar with the many ways that your business network could be attacked and potentially
+                compromised. This knowledge enhances your ability to make decisions about measures to harden your network and make it immune to compromise. Discussed below are ten of the common ways that cybercriminals could try to attack your network.</p>
+        </div>
+        <div>
+            <div>
+                <h5>1) Man-in-the-Middle Attacks</h5>
+                <p>With man-in-the-middle attacks, the hacker tries to hijack the traffic between two network devices. This hacker typically does this by substituting one of the devices' IP addresses with a fake one which enables the messages being transmitted
+                    to be intercepted and retrieved.</p>
+                <div>
+                    <h5>2) Rootkit</h5>
+                    <p>Rootkits are stealthy programs designed to gain administrative rights and access to a network device. Once installed, hackers have full and unrestricted access to the device and can, therefore, execute any action such as spying on
+                        users or stealing confidential information without any hindrance.</p>
+                </div>
+                <div>
+                    <h5>3) Phishing</h5>
+                    <p>This is the most well-known network attack technique whereby the hacker sends the users an email with an infected link. Clicking on the link within the email then releases a virus or malware that infects the device and spreads through
+                        the network until it is contained.</p>
+                </div>
+                <div>
+                    <h5>4) Denial-of-Service</h5>
+                    <p>With this attack, hackers co-opt hundreds or thousands of devices, using them to send messages to a network server. Eventually, a threshold is reached whereby the server becomes overwhelmed and is unable to process all the inbound
+                        traffic. This results in the crashing of the network server and the website, therefore, becoming unavailable.</p>
+                </div>
+                <div>
+                    <h5>5) SQL Injection Attack</h5>
+                    <p>Most website backend databases are manipulated using Structured Query Language (SQL) applications. With an SQL injection attack, hackers look for and exploit vulnerabilities in these SQL applications such that they are able to tinker
+                        with, and potentially cause damage, to the backend databases and adversely impact the relevant websites.</p>
+                </div>
+                <div>
+                    <h5>6) Password Attacks</h5>
+                    <p>Password attacks entail hackers using different methods in an attempt to crack the passwords of users in a network. Hackers try to crack passwords using brute force, by trying commonly used passwords, or by installing a program on
+                        the device that logs all the user's keystrokes.</p>
+                </div>
+                <div>
+                    <h5>7) Computer Viruses</h5>
+                    <p>Computer viruses are software designed to rapidly spread among devices within a network. Depending on its purpose, ransomware can infect, edit, or delete files. Hackers also use computer viruses to send spam messages.</p>
+                </div>
+                <div>
+                    <h5>8) Ransomware</h5>
+                    <p>Ransomware is malicious software installed by hackers that takes over a network device or even an entire network and encrypts all the files. Once encrypted, users are unable to access the network data until the ransom is paid. Failure
+                        to pay the ransom can result in the deletion of the encrypted files.</p>
+                </div>
+                <div>
+                    <h5>9) Spyware</h5>
+                    <p>Spyware is software that hackers install on user devices that enable them to view all the online activities of the user. Hackers can use spyware to log a user keystrokes and thereby obtain private information such as account credentials
+                        and credit card information, among others.</p>
+                </div>
+                <div>
+                    <h5>10) Trojan Horse</h5>
+                    <p>A Trojan horse is a malicious software program installed on a device that appears to be useful. Due to their innocent look, users are fooled into clicking on the program and downloading to their device. Once the program is downloaded,
+                        it can then execute a variety of functions such as stealing information, monitoring keystrokes, or corrupting data in the database.<br> The network attack strategies listed above are by no means in any way exhaustive. Cybercriminals
+                        are constantly devising new ways to penetrate computer networks and remain undetected. To ensure that your network remains constantly protected from cyber attacks, it is essential to engage the services of cybersecurity specialists.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------------------------all body contents ends here---------------------------------------------------- -->
+    <footer class="page-footer mt-3">
+
+        <!-- Footer Links -->
+        <div class="container footer text-center text-md-left ">
+
+            <!-- Grid row -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Content -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Network Detailer</h5>
+                    <p><i>"Network is the best"</i></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sapiente animi minus earum natus porro!</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Links -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Links</h5>
+
+                    <ul class="list-unstyled" style="color: rgb(216, 203, 17);">
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Home</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">About Us</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Network Types</a>
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="#" id="contact-a">Contact Us</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                    <!-- Contact details -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fa fa-home mr-3"></i> No. 114 2/1,Padiliyathuduwa Road, Beliatta, tangalle, Sri Lanka
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-envelope mr-3"></i>abcnetworka@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-phone mr-3"></i> + 94 76 8 841 586
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fa fa-whatsapp mr-3"></i> + 94 76 5 341 586
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                    <!-- Social buttons -->
+                    <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                    <!-- Facebook -->
+                    <a type="button" class="btn-floating btn-fb" href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook-square fa-2x mr-3"></i>
+                    </a>
+                    <!-- Insta -->
+                    <a type="button" class="btn-floating btn-tw" href="https://www.instagram.com/" target="_blank">
+                        <i class="fa fa-instagram fa-2x mr-3"></i>
+                    </a>
+                    <!-- Gmail -->
+                    <a type="button" class="btn-floating btn-dribbble" href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-2x"></i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3  " style="background-color: rgb(31, 30, 30); color: white;">© 2021 Copyright: Developed by
+            <a style="color: crimson;" href="#"> Shashini Udeesha</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer end -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
